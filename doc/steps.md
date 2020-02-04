@@ -71,3 +71,23 @@
       3. from `https://github.com/MikeNwin/code-to-cloud` 
       
       4. to `https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME`
+
+### Create the action
+
+1. Go to the **Actions** tab.
+
+2. Click on the **New workflow** button.
+
+3. Click on the **Set up this workflow** button of the **Node.js Package** workflow.
+
+4. Configure the action:
+
+   1. Remove the `publish-npm` job (i.e. lines 18-30).
+   
+   2. Add your GitHub username to the `scope` of the `publish-gpr`.
+   
+   3. Notice `${{secrets.GITHUB_TOKEN}}` is available and configured by default.
+   
+5. Click on the **Start commit** button.
+
+6. Click on the **Commit new file** button.
