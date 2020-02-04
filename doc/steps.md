@@ -91,3 +91,13 @@
 5. Click on the **Start commit** button.
 
 6. Click on the **Commit new file** button.
+
+### Create a release to trigger the action
+
+1. Go to the **releases** page.
+
+2. Click on the **Create a new release** button.
+
+3. Enter a tag version (e.g. `v1.0`).
+
+4. Click on the **Publish release** button.
