@@ -62,7 +62,7 @@
 
 1. Edit the `package.json` file:
 
-   1. Change the GitHub organization or username, and repository references to your values--e.g.:
+   1. Change the GitHub organization or username, and repository references, to your values--e.g.:
    
       1. from `"name": "@MikeNwin/code-to-cloud"` 
       
@@ -71,6 +71,14 @@
       3. from `https://github.com/MikeNwin/code-to-cloud` 
       
       4. to `https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME`
+
+2. Edit the `.npmrc` file:
+
+   1. Change the GitHub organization or username to your organization or username--e.g.:
+   
+      1. from `@MikeNwin:registry=https://npm.pkg.github.com/`
+      
+      2. to `@YOUR-USERNAME:registry=https://npm.pkg.github.com/`
 
 ### Create the action
 
