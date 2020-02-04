@@ -53,3 +53,21 @@
 4. Expand the failing `Run npm test` step (click on the ► right arrow character):
 
    1. Notice the failing `Addition` checks starting at [`line 21`](../../runs/424494825?check_suite_focus=true#step:6:21)
+
+# :package: Package the code
+
+## In GitHub
+
+### Update the references
+
+1. Edit the `package.json` file:
+
+   1. Change the GitHub organization or username, and repository references to your values--e.g.:
+   
+      1. from `"name": "@MikeNwin/code-to-cloud"` 
+      
+      2. to `"name": "@YOUR-USERNAME/YOUR-REPOSITORY-NAME"`
+      
+      3. from `https://github.com/MikeNwin/code-to-cloud` 
+      
+      4. to `https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME`
