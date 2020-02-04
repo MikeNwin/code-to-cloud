@@ -39,3 +39,11 @@
    1. Name your branch (e.g. `fix-addition-operation`)
    
 7. Click on the **Propose file change** button.
+
+### Open a pull request
+
+1. Click on the **Create pull request** button.
+
+2. Notice the **Node.js CI / build** failing checks.
+
+3. Click on the **Details** on one of the failing checks.
