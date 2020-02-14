@@ -50,7 +50,7 @@
 
 ### Explore the action output
 
-4. Expand the failing `Run npm test` step (click on the ► right arrow character):
+1. Expand the failing `Run npm test` step (click on the ► right arrow character):
 
    1. Notice the failing `Addition` checks starting at [`line 21`](../../runs/424494825?check_suite_focus=true#step:6:21)
 
@@ -109,3 +109,15 @@
 3. Enter a tag version (e.g. `v1.0`).
 
 4. Click on the **Publish release** button.
+
+### Explore the action output
+
+1. Go to the **Actions** tab.
+
+2. Notice the **Node.js Package** action is now running.
+
+3. Wait for the **Node.js Package** action to complete.
+
+4. Go to the **packages** page.
+
+5. Notice a package has been published by the **Node.js Package** action.
