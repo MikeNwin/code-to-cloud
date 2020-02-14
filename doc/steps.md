@@ -92,7 +92,7 @@
 
    1. Replace `@your-github-username` with your GitHub username on line 41 (e.g. @MikeNwin).
 
-   2. Notice `${{secrets.GITHUB_TOKEN}}` is available and configured by default on line 45.
+   2. Notice `${{secrets.GITHUB_TOKEN}}` is automatically available and configured by default on line 45.
 
    3. Remove the `publish-npm` job at lines 18-30.
 
