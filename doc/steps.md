@@ -252,7 +252,7 @@ This guide will introduce you to:
 
 1. Go back to the **Code** tab.
 
-2. Notice security alerts are enabled and a prominent banner appears.
+2. Notice security alerts are now enabled and a prominent banner appears.
 
 3. Click on the **View security alerts** button.
 
