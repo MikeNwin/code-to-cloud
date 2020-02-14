@@ -192,13 +192,13 @@
 
 3. Click on the **Set up this workflow** button of the **Deploy Node.js to Azure Web App** workflow.
 
-4. Configure the action:
+4. Configure the action to deploy to Azure:
 
-   1. Remove the `publish-npm` job (i.e. lines 18-30).
-   
-   2. Add your GitHub username to the `scope` of the `publish-gpr`.
-   
-   3. Notice `${{secrets.GITHUB_TOKEN}}` is available and configured by default.
+   1. Replace `your-app-name` with your app service name created above on line 17 (e.g. `calculator`).
+
+   2. Replace `10.x` with `12.x` on line 19.
+
+   3. Notice `publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}` is configured by default to consume the secret created above on line 42.
    
 5. Click on the **Start commit** button.
 
