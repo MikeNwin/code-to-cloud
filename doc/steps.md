@@ -255,3 +255,9 @@
 3. Click on the Commits details in the first comment of the pull request to view the changes made by dependabot.
 
 4. Merge the pull request.
+
+### View security update deployment
+
+1. Go to the **Actions** tab.
+
+2. Notice a new instance of the **.github/workflows/azure.yml** action is now running to deploy the security update.
