@@ -1,3 +1,17 @@
+# :information_source: Introduction
+
+This guide is based on the [calculator app](https://github.com/actionsdemos/calculator) developed by by [@ethomson](https://github.com/ethomson)... :pray:
+
+The purpose of this guide is to serve as a simple step-by-step example of going from code on GitHub to an app on the Azure cloud.
+
+This guide will introduce you to:
+
+- [GitHub](https://github.com/)
+- [GitHub actions](https://github.com/features/actions/)
+- [GitHub packages]()
+- [GitHub security alerts](https://github.com/features/security#security-alert)
+- [Azure](https://azure.microsoft.com)
+
 # :arrow_down_small: Get the code
 
 ## In GitHub
