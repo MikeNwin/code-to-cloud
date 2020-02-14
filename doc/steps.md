@@ -203,3 +203,15 @@
 5. Click on the **Start commit** button.
 
 6. Click on the **Commit new file** button.
+
+### Explore the action output
+
+1. Go to the **Actions** tab.
+
+2. Notice the **.github/workflows/azure.yml** action is now running.
+
+3. Wait for the **.github/workflows/azure.yml** action to complete.
+
+4. Refresh the app service URL opened above (e.g. `https://calculator.azurewebsites.net`).
+
+5. Notice the app service web site is now a functional calculator app.
