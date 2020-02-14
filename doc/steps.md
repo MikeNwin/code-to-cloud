@@ -170,7 +170,7 @@ This guide will introduce you to:
 
 2. Click on the app service URL (e.g. `https://calculator.azurewebsites.net`).
 
-3. Notice the app service web site is up and running—but bare and showing only a default app service landing page.
+3. Notice the app service web site is up and running—but only showing a default app service landing page.
 
 ### Get the publish profile
 
