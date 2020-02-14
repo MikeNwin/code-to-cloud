@@ -233,3 +233,15 @@
       1. **Dependency graph**
       
       2. **Security alerts**
+
+### View security alerts
+
+1. Go back to the **Code** tab.
+
+2. Notice security alerts are enabled and a prominent banner appears.
+
+3. Click on the **View security alerts** button.
+
+4. Notice the open alerts of varying severity.
+
+5. Notice a pull request is automatically opened for **lodash**.
