@@ -52,7 +52,7 @@
 
 1. Expand the failing `Run npm test` step (click on the ► right arrow character):
 
-   1. Notice the failing `Addition` checks starting at [`line 21`](../../runs/424494825?check_suite_focus=true#step:6:21)
+   1. Notice the failing `Addition` checks starting at `line 21`
 
 # :package: Package the code
 
@@ -87,15 +87,15 @@
 2. Click on the **New workflow** button.
 
 3. Click on the **Set up this workflow** button of the **Node.js Package** workflow.
+ 
+4. Configure the action to publish a package to the [GitHub Package Registry](https://github.com/features/packages) (GPR):
 
-4. Configure the action:
+   1. Replace `@your-github-username` with your GitHub username on line 41 (e.g. @MikeNwin).
 
-   1. Remove the `publish-npm` job (i.e. lines 18-30).
-   
-   2. Add your GitHub username to the `scope` of the `publish-gpr`.
-   
-   3. Notice `${{secrets.GITHUB_TOKEN}}` is available and configured by default.
-   
+   2. Notice `${{secrets.GITHUB_TOKEN}}` is available and configured by default on line 45.
+
+   3. Remove the `publish-npm` job at lines 18-30).
+
 5. Click on the **Start commit** button.
 
 6. Click on the **Commit new file** button.
@@ -183,3 +183,23 @@
 5. Paste the copied contents from the `code-to-cloud.PublishSettings` file into **Value** field.
 
 6. Click **Add secret**.
+
+### Create the action
+
+1. Go to the **Actions** tab.
+
+2. Click on the **New workflow** button.
+
+3. Click on the **Set up this workflow** button of the **Deploy Node.js to Azure Web App** workflow.
+
+4. Configure the action:
+
+   1. Remove the `publish-npm` job (i.e. lines 18-30).
+   
+   2. Add your GitHub username to the `scope` of the `publish-gpr`.
+   
+   3. Notice `${{secrets.GITHUB_TOKEN}}` is available and configured by default.
+   
+5. Click on the **Start commit** button.
+
+6. Click on the **Commit new file** button.
