@@ -8,7 +8,8 @@ This guide will introduce you to:
 
 - [GitHub](https://github.com/)
 - [GitHub actions](https://github.com/features/actions/)
-- [GitHub packages]()
+- [GitHub packages](https://github.com/features/packages)
+- [GitHub secrets](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
 - [GitHub security alerts](https://github.com/features/security#security-alert)
 - [Azure](https://azure.microsoft.com)
 
