@@ -159,3 +159,19 @@
 3. Open the `code-to-cloud.PublishSettings` file.
 
 4. Copy the contents of the `code-to-cloud.PublishSettings` file.
+
+## In GitHub
+
+### Add the publish profile as a secret
+
+1. Go to the **Settings** tab.
+
+2. Go to the **Secrets** page.
+
+3. Click on the **Add a new secret** option.
+
+4. Name the secret `AZURE_WEBAPP_PUBLISH_PROFILE`.
+
+5. Paste the copied contents from the `code-to-cloud.PublishSettings` file into **Value** field.
+
+6. Click **Add secret**.
