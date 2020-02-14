@@ -242,6 +242,16 @@
 
 3. Click on the **View security alerts** button.
 
-4. Notice the open alerts of varying severity.
+4. Notice the open security alerts of varying severity.
 
 5. Notice a pull request is automatically opened for **lodash**.
+
+### View security updates
+
+1. Click on the pull request automatically opened for **lodash**.
+
+2. Notice **dependabot** has automatically opened a pull request to update the security vulnerabilities.
+
+3. Click on the Commits details in the first comment of the pull request to view the changes made by dependabot.
+
+4. Merge the pull request.
