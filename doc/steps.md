@@ -121,3 +121,31 @@
 4. Go to the **packages** page.
 
 5. Notice a package has been published by the **Node.js Package** action.
+
+# :rocket: Deploy the code
+
+## In Azure
+
+### Create the app service
+
+1. Click on **Create a resource**.
+
+2. Click on **Web App**.
+
+3. Select a **Subscription** (e.g. `Visual Studio Subscription`).
+
+4. Create a **Resource Group** or select an existing one.
+
+5. Name the web app (e.g. `calculator`).
+
+6. Select `Code` to **Publish**.
+
+7. Select `Node 12` as the **Runtime stack**.
+
+8. Select a Region (e.g. `Canada East`).
+
+9. Create a app service plan or select an existing one (e.g. Free F1).
+
+10. Click **Review + create**.
+
+11. Click **Create**.
