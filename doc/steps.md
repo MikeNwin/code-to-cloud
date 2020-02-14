@@ -66,7 +66,7 @@ This guide will introduce you to:
 
 1. Expand the failing `Run npm test` step (click on the ► right arrow character):
 
-   1. Notice the failing `Addition` checks starting at `line 21`
+   1. Notice the failing `Addition` checks starting at line 21.
 
 # :package: Package the code
 
