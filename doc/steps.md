@@ -50,7 +50,7 @@ This guide will introduce you to:
 
 6. Select "Create a **new branch** for this commit and start a pull request."
 
-   1. Name your branch (e.g. `fix-addition-operation`)
+   1. Name your branch (e.g. `fix-addition-operation`).
    
 7. Click on the **Propose file change** button.
 
