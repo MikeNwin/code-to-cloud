@@ -2,7 +2,7 @@
 
 This guide is based on the [calculator app](https://github.com/actionsdemos/calculator) developed by by [@ethomson](https://github.com/ethomson)... :pray:
 
-The purpose of this guide is to serve as a simple step-by-step example of going from code on GitHub to an app on the Azure cloud.
+The purpose of this guide is to serve as a simple step-by-step example of going from code on GitHub to an app in the Azure cloud.
 
 This guide will introduce you to:
 
