@@ -94,7 +94,7 @@
 
    2. Notice `${{secrets.GITHUB_TOKEN}}` is available and configured by default on line 45.
 
-   3. Remove the `publish-npm` job at lines 18-30).
+   3. Remove the `publish-npm` job at lines 18-30.
 
 5. Click on the **Start commit** button.
 
