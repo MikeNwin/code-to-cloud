@@ -215,3 +215,21 @@
 4. Refresh the app service URL opened above (e.g. `https://calculator.azurewebsites.net`).
 
 5. Notice the app service web site is now a functional calculator app.
+
+# :warning: Secure the code
+
+## In GitHub
+
+### Enable security alerts
+
+1. Go to the **Settings** tab.
+
+2. Scroll down to the **Data services** section.
+
+3. Check all the boxes for the options:
+
+   1. **Allow GitHub to perform read-only analysis of this repository**
+   
+      1. **Dependency graph**
+      
+      2. **Security alerts**
