@@ -158,7 +158,7 @@ This guide will introduce you to:
 
 8. Select a Region (e.g. `Canada East`).
 
-9. Create a app service plan or select an existing one (e.g. Free F1).
+9. Create an app service plan or select an existing one (e.g. Free F1).
 
 10. Click **Review + create**.
 
