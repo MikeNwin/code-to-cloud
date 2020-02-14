@@ -150,9 +150,17 @@
 
 11. Click **Create**.
 
+### View the new app service web site
+
+1. Go to the newly created app service home page.
+
+2. Click on the app service URL (e.g. `https://calculator.azurewebsites.net`).
+
+3. Notice the app service web site is up and running—but bare and showing only a default app service landing page.
+
 ### Get the publish profile
 
-1. View the app service.
+1. Go to the app service home page.
 
 2. Click on **Get publish profile** to download the `code-to-cloud.PublishSettings` file.
 
