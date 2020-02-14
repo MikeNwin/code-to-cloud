@@ -149,3 +149,13 @@
 10. Click **Review + create**.
 
 11. Click **Create**.
+
+### Get the publish profile
+
+1. View the app service.
+
+2. Click on **Get publish profile** to download the `code-to-cloud.PublishSettings` file.
+
+3. Open the `code-to-cloud.PublishSettings` file.
+
+4. Copy the contents of the `code-to-cloud.PublishSettings` file.
